@@ -1,0 +1,187 @@
+{
+	"id": "f9a6a709-7346-31a7-ba57-062c4ab838a0",
+	"name": "Clodle.WebSocket",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Logs",
+			"description": "",
+			"collectionId": "f9a6a709-7346-31a7-ba57-062c4ab838a0",
+			"order": [
+				"a74617f1-4b43-dda6-f43d-3f1f883bce2d",
+				"36f714db-75f2-d5c0-cdfb-3582faa93950",
+				"24cae33e-2108-c92c-be5b-77730c686508",
+				"b3e91f46-8f2e-cb88-6585-0146d9ed3651",
+				"9d82e2f0-88c0-449f-1f42-8cf2514244b3"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "7a19c0c2-95aa-32ad-9f46-2715e60804e8"
+		}
+	],
+	"folders_order": [
+		"7a19c0c2-95aa-32ad-9f46-2715e60804e8"
+	],
+	"timestamp": 1603510117444,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "24cae33e-2108-c92c-be5b-77730c686508",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:61270/api/v1/logs",
+			"folder": "7a19c0c2-95aa-32ad-9f46-2715e60804e8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603511189111,
+			"name": "Save Log",
+			"description": "",
+			"collectionId": "f9a6a709-7346-31a7-ba57-062c4ab838a0",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "24cae33e-2108-c92c-be5b-77730c686508",
+			"rawModeData": "{\n\t\"Id\": 0,\n\t\"Name\": \"Primeiro Log...\"\n}"
+		},
+		{
+			"id": "36f714db-75f2-d5c0-cdfb-3582faa93950",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:61270/api/v1/logs/1",
+			"folder": "7a19c0c2-95aa-32ad-9f46-2715e60804e8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603511659872,
+			"name": "Get ById Log",
+			"description": "",
+			"collectionId": "f9a6a709-7346-31a7-ba57-062c4ab838a0",
+			"responses": [],
+			"rawModeData": "{\n\t\"Name\": \"Alterando o primeiro Log...\"\n}"
+		},
+		{
+			"id": "9d82e2f0-88c0-449f-1f42-8cf2514244b3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:61270/api/v1/logs/2",
+			"folder": "7a19c0c2-95aa-32ad-9f46-2715e60804e8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603511716928,
+			"name": "Delete Log",
+			"description": "",
+			"collectionId": "f9a6a709-7346-31a7-ba57-062c4ab838a0",
+			"responses": [],
+			"rawModeData": "{\n\t\"Name\": \"Alterando o primeiro Log...\"\n}"
+		},
+		{
+			"id": "a74617f1-4b43-dda6-f43d-3f1f883bce2d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:61270/api/v1/logs/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603511591567,
+			"name": "Get All Log",
+			"description": "",
+			"collectionId": "f9a6a709-7346-31a7-ba57-062c4ab838a0",
+			"responses": [],
+			"rawModeData": "{\n\t\"Name\": \"Alterando o primeiro Log...\"\n}"
+		},
+		{
+			"id": "b3e91f46-8f2e-cb88-6585-0146d9ed3651",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:61270/api/v1/logs/1",
+			"folder": "7a19c0c2-95aa-32ad-9f46-2715e60804e8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603511264257,
+			"name": "Edit Log",
+			"description": "",
+			"collectionId": "f9a6a709-7346-31a7-ba57-062c4ab838a0",
+			"responses": [],
+			"rawModeData": "{\n\t\"Name\": \"Alterando o primeiro Log...\"\n}"
+		}
+	]
+}
